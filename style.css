@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffdbb5;
+}
+.nav {
+  background-color: #2d3047;
+  color: white;
+  height: 50px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img {
+  height: 200px;
+  width: 400px;
+  border-radius: 200px;
+}
+.img:hover {
+  opacity: 0.8;
+  border: 3px solid black;
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.you-result {
+  margin-right: 30px;
+  font-size: 30px;
+}
+.you-point {
+  text-align: center;
+  font-size: 50px;
+}
+.comp-result {
+  margin-left: 30px;
+  font-size: 30px;
+}
+.comp-point {
+  text-align: center;
+  font-size: 50px;
+}
+.result-msg {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.msg-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.msg-container p {
+  background-color: #2d3047;
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.restart-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.restart {
+  font-size: 20px;
+  padding: 10px 10px;
+  width: 110px;
+  background-color: #e0a458;
+  color: #2d3047;
+  border-radius: 10px;
+}
+.hide {
+  visibility: hidden;
+}
